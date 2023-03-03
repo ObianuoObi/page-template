@@ -45,6 +45,41 @@ function createEngineer(team) {
         team.push(engineer);
         createTeam(team); // at this point we add an engineer to the team array
     });
+
+
+}function createIntern(team) {
+    inquirer.prompt([
+        // Intern name
+        // Intern id
+        // Intern email
+        // Intern school
+        {
+            type: 'input',
+            name: 'name',
+            message: "What is the intern's name?",
+        },
+        {
+            type: 'input',
+            name: 'id',
+            message: "What is the intern's id?",
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: "What is the intern's email?",
+        },
+        {
+            type: 'input',
+            name: 'school',
+            message: "What is the intern's school?",
+        }    ]).then((internDetails) => {
+        // Initialise Intern class to create Manager object
+        const intern = new Intern(internDetails.name, internDetails.id, internDetails.email, internDetails.school)
+        team.push(intern);
+        createTeam(team); // at this point we add an intern to the team array
+    });
+ }
+ 
  
 
 function start() {
