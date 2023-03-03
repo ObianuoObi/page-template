@@ -109,6 +109,41 @@ function createEngineer(team) {
         }
     });
  }
+
+ function createManager(team) {
+    inquirer.prompt([
+        // Manager name
+        // Manager id
+        // Manager email
+        // Manager office number (phone number)
+        {
+            type: 'input',
+            name: 'name',
+            message: "What is the team manager's name?",
+        },
+        {
+            type: 'input',
+            name: 'id',
+            message: "What is the team manager's id?",
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: "What is the team manager's email?",
+        },
+        {
+            type: 'input',
+            name: 'number',
+            message: "What is the team manager's office phone number?",
+        }
+    ]).then((managerDetails) => {
+        // Initialise Manager class to create Manager object
+        const manager = new Manager(managerDetails.name, managerDetails.id, managerDetails.email, managerDetails.number)
+        team.push(manager);
+        createTeam(team); // at this point, team array have a manager in it
+    });
+ }
+ 
  
  
  
