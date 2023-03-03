@@ -12,4 +12,6 @@ getRole() {
 getGithub() {
     return this.github
 }
-}module.exports = Engineer;
+}
+
+module.exports = Engineer;
