@@ -47,7 +47,8 @@ function createEngineer(team) {
     });
 
 
-}function createIntern(team) {
+}
+function createIntern(team) {
     inquirer.prompt([
         // Intern name
         // Intern id
@@ -101,7 +102,7 @@ function createEngineer(team) {
             // at this point, team array should have a manager and however many engineers and interns the user inputted
             const html = render(team); // html will be html file as string
             // write html to a file index.html using fs library
-            fs.writeFile(outputPath, html, (err) => {
+            fs.writeFile("index.html", html, (err) => {
                 if (err) {
                     console.log('Failed to write HTML file');
                 }
@@ -153,6 +154,7 @@ function start() {
     // Employee can be Manager, Engineer, or Intern
     createManager(team);
 
-    render(team);
- }start();
+    
+ }
+ start();
  
