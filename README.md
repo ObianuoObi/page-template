@@ -6,14 +6,14 @@
    _This application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.  _
 
 ## Deployment
-[Live]()
+[Live](https://obianuoobi.github.io/page-template/)
 
 ### Author
 Obinna Obianuo
 
 
 #### Technologies Used
-   
+   HTML
    JavaScript
    Node.js
 
