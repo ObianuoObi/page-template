@@ -1,9 +1,9 @@
-# Title : Code Quiz
+# Title : Team Profile Generator
 
 ## Description:
  
 
-   _ A timed coding quiz with multiple-choice questions._
+   _This application takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.  _
 
 ## Deployment
 [Live]()
@@ -13,20 +13,15 @@ Obinna Obianuo
 
 
 #### Technologies Used
-   HTML
-   CSS
+   
    JavaScript
+   Node.js
 
-#### Setup/Installation Requirements
-  git clone 
-  Deploy index.html to webserver from root directory
-  Include JavaScript, CSS, HTMl and Image folder in their original file structure
-  Load webserver
 
 
 #### Screenshots
 
-! [Screenshot](https://github.com/ObianuoObi/code-quiz/tree/main/assets/images)
+! [Screenshot]()
 
 
 
