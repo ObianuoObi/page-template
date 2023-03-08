@@ -21,7 +21,7 @@ Obinna Obianuo
 
 #### Screenshots
 
-! [Screenshot]()
+! [Screenshot](https://github.com/ObianuoObi/page-template/blob/main/challenge/assets/Screenshot%202023-03-08%20at%2022.33.16.png)
 
 
 
